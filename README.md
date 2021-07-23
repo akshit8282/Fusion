@@ -1,3 +1,5 @@
+![Screenshot (1)](https://user-images.githubusercontent.com/68769530/126800339-9c10420b-0cc1-4303-b3ae-bc16be4a7f63.png)
+![Screenshot (2)](https://user-images.githubusercontent.com/68769530/126800430-fa9fe549-b144-481c-816d-76d1a933f3aa.png)
 # blogs-react
 A blog site with beautiful UI.
 A BOG SITE WHICH CAN->
