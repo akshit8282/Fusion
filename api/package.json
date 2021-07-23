@@ -6,11 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-<<<<<<< HEAD
     "start-server": "nodemon index.js --ignore'../client/"
-=======
-    "start-server":"nodemon index.js --ignore'../client/"
->>>>>>> 411a570a85de9fd6be22c6ea76a3260afbc1506f
   },
   "author": "",
   "license": "ISC",
@@ -20,11 +16,7 @@
     "express": "^4.17.1",
     "mongoose": "^5.12.9",
     "multer": "^1.4.2",
-<<<<<<< HEAD
     "nodemon": "^2.0.12",
     "path": "^0.12.7"
-=======
-    "nodemon": "^2.0.7"
->>>>>>> 411a570a85de9fd6be22c6ea76a3260afbc1506f
   }
 }

@@ -22,11 +22,6 @@ dispatch({type:'LOGOUT'})
 <li className="l-item"><Link className="link" to="/">
               HOME
             </Link></li>
-<<<<<<< HEAD
-
-=======
-<li className="l-item">CONTACT</li>
->>>>>>> 411a570a85de9fd6be22c6ea76a3260afbc1506f
 <li className="l-item"><Link className="link" to="/write">
               WRITE
             </Link></li>
@@ -44,11 +39,7 @@ dispatch({type:'LOGOUT'})
           <Link className="link" to="/settings">
            
               <img className="image" src={PF+user.profilePicture} alt="image"/>
-<<<<<<< HEAD
              
-=======
-              <i className="searchicon fas fa-search"></i>
->>>>>>> 411a570a85de9fd6be22c6ea76a3260afbc1506f
           </Link>
         ) : (
           <ul className="list">

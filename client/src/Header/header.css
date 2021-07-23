@@ -5,14 +5,9 @@
 
 
 .headerimg{
-<<<<<<< HEAD
     height: 500px;
     width: 95%;
     margin-left: 20px;
-=======
-    height: 450px;
-    width: 100%;
->>>>>>> 411a570a85de9fd6be22c6ea76a3260afbc1506f
     
 }
 @media screen and (max-width: 555px) {

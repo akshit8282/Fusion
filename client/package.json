@@ -1,19 +1,12 @@
 {
   "name": "client",
   "version": "0.1.0",
-<<<<<<< HEAD
-=======
-  
->>>>>>> 411a570a85de9fd6be22c6ea76a3260afbc1506f
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
-<<<<<<< HEAD
     "axios": "^0.21.1",
-=======
->>>>>>> 411a570a85de9fd6be22c6ea76a3260afbc1506f
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router-dom": "^5.2.0",
@@ -44,9 +37,5 @@
       "last 1 safari version"
     ]
   },
-<<<<<<< HEAD
   "proxy": "http://localhost:5000/api/"
-=======
-  "proxy":"http://localhost:5000/api/"
->>>>>>> 411a570a85de9fd6be22c6ea76a3260afbc1506f
 }
