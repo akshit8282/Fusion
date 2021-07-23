@@ -1,0 +1,96 @@
+.topbar{
+    height: 50px;
+    position:sticky;
+    top:0;
+    display: flex;
+    z-index: 999;
+    background-color:white;
+}
+.topleft,.topright{
+    flex: 3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topcenter{
+    flex:6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    
+}
+.searchicon{
+    cursor: pointer;
+    color: grey;
+    font-size: 24px;
+    margin-left: 10px;
+
+}
+.list{
+    display: flex;
+    margin: 0;
+    padding:0;
+    list-style: none;
+    justify-content: center;
+}
+.l-item{
+    padding: 3px;
+    font-size: 29px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 20px;
+    color: gray;
+}
+.fonticon{
+    color:grey;
+    padding: 5px;
+    font-size: 27px;
+    cursor: pointer;
+}
+@media screen and (max-width: 900px) {
+    .topbar {display:block;
+    width: 100%;
+    height: auto;
+    }
+       .l-item{
+        padding: 3px;
+        font-size: 15px;
+        font-weight: 400;
+        cursor: pointer;
+        margin-right: 2px;
+       }
+      }
+@media screen and (max-width: 555px) {
+.topbar {display:block;
+    width: 81vh; 
+    z-index: 999; 
+    height: auto;
+}
+   .l-item{
+    padding: 6px;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-right: 2px;
+   }
+  }
+  @media screen and (max-width: 530px) {
+    .topbar {display:block;
+        width: 70vh; 
+        z-index: 999;
+        height: auto; 
+    }
+       .l-item{
+        padding: 7px;
+        font-size: 20px;
+        font-weight: 400;
+        cursor: pointer;
+        margin-right: 2px;
+       }
+      }

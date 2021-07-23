@@ -1,0 +1,63 @@
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:100vh;
+    
+   background-color: darksalmon;
+    background-size: cover;
+}
+.loginlabel{
+    color: black;
+    font-size: 29px;
+}
+.button{
+    margin: auto;
+    background-color:coral;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+input{
+    height: 50px;
+    width: 90px;
+}
+form{
+    width: 400px;
+}
+#emailHelp{
+color:black;
+    font-size: 20px;
+}
+.registerbutton{
+    position: absolute;
+    top:150px;
+    right:20px;
+    background-color: teal;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+@media screen and (max-width: 670px) {
+    .login{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height:110vh;
+        width: 81vh;
+        border-radius: 30px;
+    }
+    .registerbutton{
+       position: relative;
+       top:10px;
+       right:-5px;
+width: 120px;
+        background-color: teal;
+        color: white;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+      }
+     

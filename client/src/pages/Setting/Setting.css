@@ -1,0 +1,60 @@
+.settingimg{
+    height: 120px;
+    width: 120px;
+    border-radius: 30px;
+}
+.Wrapper{
+    margin-top: 100px;
+}
+label{
+    font-size: 1.5rem;
+    color: gray;
+
+}
+.in{
+color: gray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid lightgray;}
+.pp{
+    padding: 9px;
+}
+.settingsPPInput {
+    width: 30%;
+  }
+
+.settingsPPIcon {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    margin-left: 10px;
+    color: white;
+    background-color: lightcoral;
+    cursor: pointer;
+  }
+
+  .settingsSubmitButton {
+   
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .settingsSubmitButton:hover {
+    background-color: rgb(1, 114, 114);
+  }
+

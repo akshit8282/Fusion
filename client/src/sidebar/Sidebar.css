@@ -1,0 +1,188 @@
+.sidebar {
+    flex: 3;
+    height: fit-content;
+    margin: 20px;
+    padding-bottom: 30px;
+    background-color: #fdfbfb;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sidebarItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sidebarTitle {
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+    border-top: solid 1px #a7a4a4;
+    border-bottom: solid 1px #a7a4a4;
+    text-align: center;
+    font-family: "Varela Round", sans-serif;
+    font-size: 12px;
+    line-height: 19px;
+    color: #222222;
+    font-weight: 600;
+  }
+  
+  .sidebarItem > img {
+    margin-top: 15px;
+    width: 250px;
+    height: 250px;
+  }
+  
+  .sidebarItem > p {
+    padding: 30px;
+  }
+  
+  .sidebarList {
+    list-style-type: none;
+    margin-bottom: 30px;
+  }
+  
+  .sidebarListItem {
+    display: inline-block;
+    width: 50%;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  
+  .sidebarSocial {
+    margin-top: 15px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sidebarIcon {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  @media screen and (max-width: 900px) {
+    .sidebar {
+      flex: 3;
+        height: fit-content;
+        
+        padding-bottom: 10px;
+        background-color: #fdfbfb;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .sidebarTitle {
+        margin: 10px;
+        padding: 10px;
+        width: 60%;
+        border-top: solid 1px #a7a4a4;
+        border-bottom: solid 1px #a7a4a4;
+        text-align: center;
+        font-family: "Varela Round", sans-serif;
+        font-size: 15px;
+        line-height: 15px;
+        color: #222222;
+        font-weight: 400;
+      }
+      .sidebarItem > img {
+        margin-top: 10px;
+        width: 100px;
+        height: 100px;
+      }
+      .sidebarItem > p {
+        padding: 20px;
+        font-size: 10px;
+      }
+      .sidebarList {
+        list-style-type: none;
+        margin-bottom: 20px;
+      }
+      .sidebarListItem {
+        display: inline-block;
+        width: 50%;
+        margin-top: 10px;
+        cursor: pointer;
+      }
+      .sidebarSocial {
+        margin-top: 10px;
+        width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .sidebarIcon {
+        font-size: 10px;
+        margin-left: 8px;
+      }
+      li{
+          font-size: 10px;
+      }
+      }
+      @media screen and (max-width: 555px) {
+        .sidebar {
+          flex: 3;
+            height: fit-content;
+            width: 150px;
+            padding-bottom: 10px;
+            background-color:wheat;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+          .sidebarTitle {
+          
+            padding: 8px;
+            
+            border-top: solid 1px #a7a4a4;
+            border-bottom: solid 1px #a7a4a4;
+            text-align: center;
+            font-family: "Varela Round", sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            color: #222222;
+            font-weight: 400;
+          }
+          .sidebarItem > img {
+            margin-top: 10px;
+            width: 100px;
+            height: 100px;
+          }
+          .sidebarItem > p {
+            padding: 10px;
+            font-size: 16px;
+          }
+          .sidebarList {
+            list-style-type: none;
+            margin-bottom: 10px;
+          }
+          .sidebarListItem {
+            display: block;
+            
+            margin-top: 10px;
+            cursor: pointer;
+          }
+          .sidebarSocial {
+            margin-top: 10px;
+            width: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          .sidebarIcon {
+            font-size: 10px;
+            margin-left: 8px;
+          }
+          li{
+              font-size: 12px;
+              margin-right: 40px;
+          }
+          .cat{
+            margin-right: 30px;
+          }
+          }

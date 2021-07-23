@@ -1,0 +1,57 @@
+.write {
+    padding-top: 50px;
+  }
+  .imagediv{
+      display:flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .writeImg {
+    
+    width: 70vw;
+    height: 400px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  .writeInput {
+    font-size: 30px;
+    border: none;
+    padding: 20px;
+    width: 70vw;
+  }
+  
+  .writeInput::placeholder {
+    color: rgb(189, 185, 185);
+    font-weight: 400;
+  }
+  .writeInput:focus {
+    outline-style: none;
+  }
+  
+.writeText {
+    width: 70vw;
+    height: 100vh;
+    font-family: inherit;
+    font-size: 20px;
+  }
+  
+  .writeSubmit {
+    
+
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  .fileinput{
+    padding: 3px;
+    display: flex;
+  justify-content: flex-start;
+
+  }
+  
